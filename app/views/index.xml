@@ -1,0 +1,36 @@
+<Alloy>
+	<Window class="container">
+		<View layout="vertical">
+			<Label id="label_prev"></Label>
+			<Label id="label_curr">0</Label>
+			<TableViewRow layout="horizontal">
+				<Button id="button7" onClick="handlerNumberButtons" title="7"/>
+				<Button id="button8" onClick="handlerNumberButtons" title="8"/>
+				<Button id="button9" onClick="handlerNumberButtons" title="9"/>
+				<Button id="button_multiply" onClick="handlerOperationButtons" title="*"/>
+			</TableViewRow>
+			<TableViewRow layout="horizontal">
+				<Button id="button4" onClick="handlerNumberButtons" title="4"/>
+				<Button id="button5" onClick="handlerNumberButtons" title="5"/>
+				<Button id="button6" onClick="handlerNumberButtons" title="6"/>
+				<Button id="button_minus" onClick="handlerOperationButtons" title="-"/>
+			</TableViewRow>
+			<TableViewRow layout="horizontal">
+				<Button id="button1" onClick="handlerNumberButtons" title="1"/>
+				<Button id="button2" onClick="handlerNumberButtons" title="2"/>
+				<Button id="button3" onClick="handlerNumberButtons" title="3"/>
+				<Button id="button_plus" onClick="handlerOperationButtons" title="+"/>
+			</TableViewRow>
+			<TableViewRow layout="horizontal">
+				<Button id="button_point" onClick="handlerNumberButtons" title="."/>
+				<Button id="button0" onClick="handlerNumberButtons" title="0"/>
+				<Button id="button_divide" onClick="handlerOperationButtons" title="/"/>
+				<Button id="button_equale" onClick="handlerEqualButton" title="="/>
+			</TableViewRow>
+			<TableViewRow layout="horizontal">
+				<Button id="button_c" onClick="handlerClearButton" title="C" />
+				<Button id="button_del" onClick="handlerDelButton" title="Del" />
+			</TableViewRow>
+		</View>
+	</Window>
+</Alloy>
